@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Italian Bistro</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Volkhov&display=swap" rel="stylesheet">
+    <link href="https://fonts.google.com/specimen/Pacifico?query=paci" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap" rel="stylesheet">
+
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js">
+    </script>
+    <script type="text/javascript">
+        (function () {
+            emailjs.init({
+                publicKey: "dVuACN3GLhT0GzlI0",
+            });
+        })();
+    </script>
+</head>
+
+<body>
+    <nav class="navbar">
+        <img class="logo-navbar" src="imgs/logo/logo_site_bannerprincipal.png" />
+
+        <div class="navbar-links">
+            <a class="navbar-item" href="index.html">home</a>
+            <a class="navbar-item" href="menu.html">menu</a>
+            <a class="active navbar-item" href="contato.html">contato</a>
+
+        </div>
+    </nav>
+
+    <div class="container">
+        <img src="imgs/contato/imagem_banner_contato.jpg" alt="banner contato" class="banner">
+
+        <div class="on-image">
+            <p class="center">CONTATO</p>
+        </div>
+    </div>
+
+    <div class="col" style="justify-content: space-around;">
+        <div class="infos">
+            <h1 class="yellow-cursive-font">ENDEREÇO</h1>
+            <hr>
+            <p class="defalt-font">
+                <br><br>
+                José Paulino, 1369 | Centro <br>
+                Campinas - SP <br>
+                <br>
+                19 99999999 | 19 88888888 <br>
+                <br>
+                contato@italinbistro.com
+                <br><br>
+            </p>
+
+            <h1 class="yellow-cursive-font">FUNCIONAMENTO</h1>
+            <hr>
+            <p class="defalt-font">
+                <br><br>
+                SEGUNDA A QUINTA: <br>
+                10hrs às 15hrs | 18hrs às 22hrs <br>
+                <br>
+                SEXTA às SABADO: <br>
+                10hrs às 16hrs | 22hrs às 00hrs <br>
+                <br>
+                DOMINGO: <br>
+                10hrs ás 16hrs
+                <br>
+            </p>
+
+
+        </div>
+        <div class="formulario">
+            <form class="form-item" action="https://formcarry.com/s/4uMp7qsicl9" method="POST"
+                enctype="multipart/form-data">
+                <input placeholder="seu nome" type="text" name="nome">
+                <input placeholder="seu telefone" type="tel" name="telefone">
+                <input placeholder="seu email" type="email" name="email">
+                <textarea class="texto" placeholder="assunto" name="assunto"></textarea>
+                <button class="botao" type="submit">Fazer Pedido</button>
+            </form>
+
+        </div>
+
+    </div>
+    </div>
+
+    <footer>
+        <div class="col colA">
+            <h1 class="defalt-font"> SOBRE NÓS</h1>
+            <hr style="border-color: black; margin-bottom: 2%; margin-top: 0%; ">
+            <p class="defalt-font">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras et posuere erat. Donec
+                molestie, ligula a dapibus hendrerit, neque arcu consequat erat, ut tristique dui ligula sit amet lorem
+            </p>
+        </div>
+
+        <div class="col colB">
+            <img src="imgs/logo/logo_site_rodape.png" alt="Logo Restaurante" style="width: 200px;">
+            <p class="defalt-font" style="text-align: center;">
+                José Paulino, 1369 | Centro <br>
+                Campinas - SP <br>
+                19 99999999 | 19 99999999 <br>
+                contato@italinbistro.com
+            </p>
+        </div>
+
+        <div class="col colC">
+            <p class="defalt-font" style="text-align: end;">
+                SEGUNDA A QUINTA: <br>
+                10hrs às 15hrs | 18hrs às 22hrs <br>
+                <br>
+                SEXTA às SABADO: <br>
+                10hrs às 16hrs | 22hrs às 00hrs <br>
+                <br>
+                DOMINGO: <br>
+                10hrs ás 16hrs
+                <br>
+            </p>
+            <div>
+                <img class="icons" src="icons/icones_facebook_preto.png" alt="Ícone Facebook">
+                <img class="icons" src="icons/icones_instragram_preto.png" alt="Ícone Instagram">
+            </div>
+        </div>
+
+    </footer>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
