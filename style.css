@@ -88,6 +88,14 @@
 
 }
 
+.prato {
+    margin: 5px 5px;
+}
+
+.prato-2 {
+    margin: 5px 5px;
+}
+
 .yellow-cursive-font {
     font-family: 'pacifico', cursive;
     color: #ffcc89;
@@ -256,4 +264,10 @@ input {
     cursor: pointer;
     padding-left: 5px;
 
+}
+
+@media(max-width: 900px) {
+    .loremP {
+        display: none;
+    }
 }
